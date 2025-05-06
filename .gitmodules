@@ -1,6 +1,0 @@
-[submodule "backend"]
-	path = backend
-	url = https://github.com/AidlyTeam/Aidly-Backend
-[submodule "frontend"]
-	path = frontend
-	url = https://github.com/AidlyTeam/Aidly-Frontend
