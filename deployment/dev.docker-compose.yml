@@ -49,7 +49,7 @@ services:
     ports:
       - 8082:8082
     volumes:
-      - ../web3:/usr/src/app
+      - "../web3:/usr/src/app"
     networks:
       - Aidly
 

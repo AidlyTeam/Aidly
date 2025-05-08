@@ -1,24 +1,23 @@
-# Base image
-FROM node:20.13.1-alpine
+# Temel image olarak Node.js'i kullanıyoruz
+FROM node:18-alpine
 
-# Set the working directory
+# Çalışma dizini oluşturuluyor
 WORKDIR /usr/src/app
 
-# Install additional dependencies
-RUN apk add --no-cache bash
-
-# Copy package.json and package-lock.json to install dependencies
+# package.json ve package-lock.json dosyasını kopyala
 COPY package*.json ./
 
-# Install all dependencies including devDependencies
-ENV NODE_ENV=development
-RUN npm install
+# Gerekli bağımlılıkları yükle
+RUN npm install --include=dev
 
-# Copy the rest of the application files
+# TypeScript ve ts-node'yi global olarak yükle
+RUN npm install -g typescript ts-node nodemon
+
+# Uygulamanın tüm dosyalarını kopyala
 COPY . .
 
-# Expose the application port
+# Uygulamanın çalışması için gerekli portu aç
 EXPOSE 8082
 
-# Use nodemon for development
-CMD ["npm", "run", "dev"]
+# Docker container başlatıldığında çalışacak komut
+CMD [ "npm", "run", "dev" ]
