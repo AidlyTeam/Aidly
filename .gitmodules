@@ -4,3 +4,6 @@
 [submodule "frontend"]
 	path = frontend
 	url = https://github.com/AidlyTeam/Aidly-Frontend.git
+[submodule "web3"]
+	path = web3
+	url = https://github.com/AidlyTeam/Aidly-Web3-Backend.git

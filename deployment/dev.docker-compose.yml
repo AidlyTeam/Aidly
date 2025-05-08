@@ -41,6 +41,18 @@ services:
     networks:
       - Aidly
 
+  web3-api:
+    container_name: Aidly-web3-api
+    build:
+      context: ../web3/.
+      dockerfile: ../deployment/web3/dev.Dockerfile
+    ports:
+      - 8082:8082
+    volumes:
+      - ../web3:/usr/src/app
+    networks:
+      - Aidly
+
   nginx:
     image: nginx:latest
     container_name: Aidly-nginx
