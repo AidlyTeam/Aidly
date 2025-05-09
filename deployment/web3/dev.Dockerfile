@@ -2,16 +2,13 @@
 FROM node:18-alpine
 
 # Çalışma dizini oluşturuluyor
-WORKDIR /usr/src/app
+WORKDIR /app
 
 # package.json ve package-lock.json dosyasını kopyala
 COPY package*.json ./
 
 # Gerekli bağımlılıkları yükle
 RUN npm install --include=dev
-
-# TypeScript ve ts-node'yi global olarak yükle
-RUN npm install -g typescript ts-node nodemon
 
 # Uygulamanın tüm dosyalarını kopyala
 COPY . .
