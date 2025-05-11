@@ -51,6 +51,7 @@ services:
     volumes:
       - "../web3:/usr/src/app"
       - /app/node_modules
+      - ../wallet:/app/wallet
     networks:
       - Aidly
 
