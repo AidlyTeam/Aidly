@@ -1,54 +1,78 @@
 # Aidly – Trustless Crowdfunding for Real-World Urgencies
 
-**Aidly** is a unique, decentralized donation platform built on **Solana** and powered by a robust **Go backend**. It allows anyone to create and contribute to donation campaigns for urgent real-life needs — such as natural disasters, critical illnesses, or education costs — with full transparency and no intermediaries.
+**Aidly** is a decentralized, transparent, and trustless crowdfunding platform built on **Solana**, powered by a high-performance **Go backend**, and designed for **real-world emergencies** — such as natural disasters, medical crises, or urgent educational needs.
+
+> **Aidly = Urgency + Transparency + Trust**
 
 ---
 
 ## 🚨 Why Aidly?
 
-In crisis situations, **time and trust** are everything.
+In life-or-death situations, **time and trust** are non-negotiable.
 
 Traditional platforms:
 
-- Take time to approve campaigns
-- Often charge high fees
-- Provide no on-chain proof of funds
-- Are prone to scams and misuse
+* Delay campaign approval
+* Charge high intermediary fees
+* Lack transparency and verifiability
+* Are vulnerable to scams and misuse
 
-**Aidly** is different.
+**Aidly** changes the game.
 
-It combines **transparency**, **speed**, and **accountability** by storing all transactions **on-chain**, while still allowing an **admin approval layer** to verify campaigns. This hybrid model ensures **urgency meets trust**.
+It blends **on-chain transparency** with a lightweight **admin review layer**, ensuring campaigns go live **fast**, but with **accountability**. Donors always know **where their money goes**.
 
 ---
 
 ## 🌟 What Makes Aidly Unique?
 
-- 🔄 Combines **decentralization** with **moderation**
-- 📖 Transparent donation history on the blockchain
-- 💬 Real human stories behind every campaign
-- 🧠 Built from the ground up for real **utility**, not just crypto hype
-- 🚀 Go backend for high performance, scalability, and minimal latency
+* 🔄 **Hybrid Model**: Decentralization + Human Moderation
+* 🔗 **Civic Authentication**: Secure identity verification for campaign creators
+* 🧾 **Fully Transparent Donations**: Every transaction is recorded on the Solana blockchain
+* 🎖 **NFT Rewards**: Donors receive unique NFTs based on their contributions
+* 🏅 **Badge System**: Users earn badges for consistent support and generous donations
+* 💬 **Real Human Stories**: Highlighting authentic needs and emergencies
+* ⚡ **Go Backend**: Built for performance, reliability, and low-latency requests
 
 ---
 
 ## 🔧 Features
 
-- 📝 **Campaign Creation** – Anyone can create a campaign with details and media
-- ✅ **Admin Approval** – Admins review campaigns before they go live
-- 💸 **Crypto Donations** – Donations are made on-chain via Solana
-- 📊 **Real-Time Progress** – Track how much is raised transparently
-- 👤 **User Dashboard** – View your own campaigns and donation history
+* 📝 **Create a Campaign**
+  Upload stories, images, and details — anyone can start a campaign.
+
+* ✅ **Admin Approval**
+  Lightweight review process ensures legitimacy without slowing down urgency.
+
+* 🔐 **Civic Auth Integration**
+  Campaign creators verify their identity using [Civic](https://www.civic.com/), boosting trust and accountability.
+
+* 💸 **Crypto Donations on Solana**
+  Fast, low-fee, and on-chain — with full traceability.
+
+* 📊 **Real-Time Progress Tracking**
+  Transparent, real-time metrics for each campaign's funding status.
+
+* 🧾 **On-Chain NFT Rewards**
+  Donors receive NFTs that reflect their level of contribution and support.
+
+* 🏅 **Badge System for Donors**
+  Donors earn digital badges that celebrate their engagement and generosity.
+
+* 👤 **User Dashboard**
+  See your campaigns, track donations, and showcase earned NFTs and badges.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer      | Technology          |
-| ---------- | ------------------- |
-| Frontend   | React, Tailwind CSS |
-| Backend    | Go (Fiber)          |
-| Blockchain | Solana              |
-| Deployment | Docker              |
+| Layer      | Technology             |
+| ---------- | ---------------------- |
+| Frontend   | NextJS                 |
+| Backend    | Go (Fiber)             |
+| Blockchain | Solana                 |
+| Auth       | Civic Auth & Phantom   |
+| NFT System | Metaplex, Solana SPL   |
+| Deployment | Docker, Docker Compose |
 
 ---
 
@@ -64,9 +88,9 @@ docker compose up --build
 
 ## 📽️ Demo & Pitch
 
-- [🌐 Live Demo](https://your-demo-link.com)
-- [🎥 Loom Pitch Video](https://loom-link.com)
-- [📁 GitHub Repo](https://github.com/AidlyTeam/aidly)
+* 🌐 [Live Demo](https://your-demo-link.com)
+* 🎥 [Loom Pitch Video](https://loom-link.com)
+* 📁 [GitHub Repo](https://github.com/AidlyTeam/aidly)
 
 ---
 
@@ -74,7 +98,5 @@ docker compose up --build
 
 | Name              | Role                   |
 | ----------------- | ---------------------- |
-| Çetin Boran Mesüm | Backend Developer (Go) |
+| Çetin Boran Mesüm | Backend Developer      |
 | Burak Bıçakcıoğlu | Frontend Developer     |
-
----
