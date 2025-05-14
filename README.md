@@ -21,7 +21,7 @@ Aidly empowers users to launch verified fundraising campaigns with on-chain tran
 
 ## 🚀 Live Platform
 
-> **[https://aidly.cetinboran.com.tr](https://aidly.cetinboran.com.tr)**
+> **[http://aidly.cetinboran.com.tr](http://aidly.cetinboran.com.tr)**
 
 ---
 
