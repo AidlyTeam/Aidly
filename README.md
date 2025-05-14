@@ -79,9 +79,11 @@ It blends **on-chain transparency** with a lightweight **admin review layer**, e
 ## 🚀 Getting Started (Local Setup)
 
 ```bash
-git clone https://github.com/your-username/aidly.git
+git clone https://github.com/AidlyTeam/aidly.git
 cd aidly
 docker compose up --build
+OR
+make dev-build
 ```
 
 ---
