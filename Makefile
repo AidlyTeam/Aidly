@@ -10,6 +10,11 @@ dev-build:
 	@echo "[i] Building project in development mode...\n"
 	@docker compose -f ./deployment/dev.docker-compose.yml up --build
 
+## 🛠️ Build and start project in development mode
+dev-build-d:
+	@echo "[i] Building project in development mode...\n"
+	@docker compose -f ./deployment/dev.docker-compose.yml up --build -d
+
 ## 🚀 Start project in production mode (detached)
 prod:
 	@echo "[i] Project is starting in production mode...\n"
