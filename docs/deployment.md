@@ -38,8 +38,6 @@ make dev-build
 
 This command will also build and run the containers as specified in the Makefile.
 
-Tabii! İşte güncellenmiş `Accessing the Application` kısmı:
-
 ---
 
 ### Accessing the Application
