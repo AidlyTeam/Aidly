@@ -88,7 +88,7 @@ docker compose up --build
 
 ## 📽️ Demo & Pitch
 
-* 🌐 [Live Demo](https://your-demo-link.com)
+* 🌐 [Live Demo](http://aidly.cetinboran.com.tr/)
 * 🎥 [Loom Pitch Video](https://loom-link.com)
 * 📁 [GitHub Repo](https://github.com/AidlyTeam/aidly)
 
