@@ -15,7 +15,7 @@ Before proceeding with the deployment, ensure you have the following prerequisit
 Start by cloning the Aidly repository from GitHub:
 
 ```bash
-git clone https://github.com/AidlyTeam/aidly.git
+git clone https://github.com/AidlyTeam/aidly.git --recursive
 cd aidly
 ```
 
