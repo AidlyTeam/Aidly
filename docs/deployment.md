@@ -23,7 +23,7 @@ cd aidly
 ### 2. Run The Application
 
 ```bash
-docker compose -f ./deployment/dev-docker-compose.yaml up --build
+docker compose -f ./deployment/dev-docker-compose.yml up --build
 ```
 
 This command will build and start the Docker containers based on the development configuration specified in `dev-docker-compose.yaml`.
